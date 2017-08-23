@@ -1,17 +1,28 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"engines": {
-		"node": "4.4.5"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "img-search",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.11.7",
+    "node-bing-api": "^3.2.2"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  },
+  "description": "This is built with HTML, CSS, JavaScript, NodeJS and MongoDB. I used frameworks like Bootstrap and ExpressJS. I also used packages like Mongoose to help manage database. And most importantly, I used Bing Web Search API to make this app possible by using node-bing-api package.",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "keywords": [
+    "image-search-abstraction",
+    "node-bing-api"
+  ],
+  "author": "Eirin Gonzales",
+  "license": "ISC"
 }
