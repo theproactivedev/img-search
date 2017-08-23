@@ -9,12 +9,12 @@
   "scripts": {
     "start": "node server.js"
   },
-  "engines": {
+    "engines": {
     "node": "4.4.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://idontknow/todo.git"
+    "url": "git+https://github.com/theproactivedev/img-search.git"
   },
   "description": "This is built with HTML, CSS, JavaScript, NodeJS and MongoDB. I used frameworks like Bootstrap and ExpressJS. I also used packages like Mongoose to help manage database. And most importantly, I used Bing Web Search API to make this app possible by using node-bing-api package.",
   "version": "1.0.0",
